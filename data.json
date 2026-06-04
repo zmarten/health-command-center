@@ -1,0 +1,18 @@
+{
+  "updated": "Demo data loaded",
+  "recommendation": "Easy / Recovery",
+  "reason": "This page is ready for GitHub Pages. Keep sensitive health details private unless you intentionally publish them.",
+  "action": "Hydrate, get protein, and keep training intensity matched to recovery.",
+  "recovery": "TBD",
+  "activity": "TBD",
+  "nutrition": "TBD",
+  "sleep": "TBD",
+  "hrv": "TBD",
+  "bodyBattery": "TBD",
+  "stress": "TBD",
+  "focus": [
+    "Publish this page through GitHub Pages.",
+    "Decide what data is safe to show publicly.",
+    "Optionally automate a sanitized daily summary."
+  ]
+}

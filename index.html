@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Health Command Center</title>
+  <meta name="description" content="A privacy-safe health dashboard shell for Hermes-generated health summaries." />
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #070b12;
+      --panel: rgba(255,255,255,.07);
+      --panel-2: rgba(255,255,255,.1);
+      --text: #f4f7fb;
+      --muted: #9aa8bb;
+      --line: rgba(255,255,255,.13);
+      --green: #55d18c;
+      --yellow: #f8c85e;
+      --red: #ff6b6b;
+      --blue: #77a7ff;
+      --purple: #b894ff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background:
+        radial-gradient(circle at 20% 0%, rgba(119, 167, 255, .25), transparent 32rem),
+        radial-gradient(circle at 90% 10%, rgba(184, 148, 255, .18), transparent 28rem),
+        var(--bg);
+      color: var(--text);
+    }
+    main { width: min(1120px, calc(100% - 28px)); margin: 0 auto; padding: 28px 0 44px; }
+    header { display: flex; justify-content: space-between; gap: 18px; align-items: flex-start; margin-bottom: 20px; }
+    h1 { margin: 0; font-size: clamp(2rem, 7vw, 4.6rem); line-height: .92; letter-spacing: -.07em; }
+    h2 { margin: 0 0 12px; font-size: 1rem; letter-spacing: .02em; }
+    p { color: var(--muted); line-height: 1.5; }
+    .badge { display: inline-flex; align-items: center; gap: 7px; border: 1px solid var(--line); background: rgba(255,255,255,.05); border-radius: 999px; padding: 7px 11px; color: var(--muted); font-size: .86rem; white-space: nowrap; }
+    .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--green); box-shadow: 0 0 18px var(--green); }
+    .grid { display: grid; grid-template-columns: repeat(12, 1fr); gap: 14px; }
+    .card { border: 1px solid var(--line); background: var(--panel); border-radius: 24px; padding: 18px; backdrop-filter: blur(18px); box-shadow: 0 20px 80px rgba(0,0,0,.25); }
+    .wide { grid-column: span 8; }
+    .side { grid-column: span 4; }
+    .third { grid-column: span 4; }
+    .half { grid-column: span 6; }
+    .metric { font-size: clamp(2rem, 8vw, 4rem); font-weight: 800; letter-spacing: -.06em; margin: 6px 0; }
+    .label { color: var(--muted); font-size: .86rem; text-transform: uppercase; letter-spacing: .11em; }
+    .row { display: flex; justify-content: space-between; gap: 16px; padding: 12px 0; border-top: 1px solid var(--line); }
+    .row:first-child { border-top: 0; padding-top: 0; }
+    .value { font-weight: 700; text-align: right; }
+    .pill { display: inline-flex; border-radius: 999px; padding: 5px 9px; background: var(--panel-2); color: var(--muted); font-size: .8rem; }
+    .green { color: var(--green); } .yellow { color: var(--yellow); } .red { color: var(--red); } .blue { color: var(--blue); } .purple { color: var(--purple); }
+    .todo { display: grid; gap: 10px; }
+    .todo div { padding: 13px; border: 1px solid var(--line); border-radius: 16px; background: rgba(0,0,0,.16); }
+    footer { margin-top: 18px; color: var(--muted); font-size: .85rem; }
+    @media (max-width: 800px) {
+      header { display: block; }
+      header .badge { margin-top: 16px; }
+      .wide, .side, .third, .half { grid-column: 1 / -1; }
+      .card { border-radius: 20px; padding: 16px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div>
+        <span class="pill">Hermes Health</span>
+        <h1>Health Command Center</h1>
+        <p>Privacy-safe shell for daily recovery, activity, nutrition, and coaching summaries.</p>
+      </div>
+      <div class="badge"><span class="dot"></span><span id="updated">Ready for first publish</span></div>
+    </header>
+
+    <section class="grid">
+      <article class="card wide">
+        <div class="label">Today’s recommendation</div>
+        <div class="metric" id="recommendation">Easy / Recovery</div>
+        <p id="reason">Use this as the public command-center shell. Keep detailed health data in Hermes/private storage unless you intentionally publish it.</p>
+      </article>
+
+      <article class="card side">
+        <h2>One simple action</h2>
+        <p id="action">Hydrate, eat protein, and keep training intensity matched to recovery.</p>
+      </article>
+
+      <article class="card third">
+        <div class="label">Recovery</div>
+        <div class="metric yellow" id="recovery">TBD</div>
+        <span class="pill">HRV • Sleep • Body Battery</span>
+      </article>
+
+      <article class="card third">
+        <div class="label">Activity</div>
+        <div class="metric blue" id="activity">TBD</div>
+        <span class="pill">Steps • Active calories</span>
+      </article>
+
+      <article class="card third">
+        <div class="label">Nutrition</div>
+        <div class="metric green" id="nutrition">TBD</div>
+        <span class="pill">Calories • Protein • Water</span>
+      </article>
+
+      <article class="card half">
+        <h2>Daily check-in</h2>
+        <div class="row"><span>Sleep</span><span class="value" id="sleep">TBD</span></div>
+        <div class="row"><span>HRV</span><span class="value" id="hrv">TBD</span></div>
+        <div class="row"><span>Body Battery</span><span class="value" id="bodyBattery">TBD</span></div>
+        <div class="row"><span>Stress</span><span class="value" id="stress">TBD</span></div>
+      </article>
+
+      <article class="card half">
+        <h2>Focus list</h2>
+        <div class="todo" id="focus">
+          <div>Publish this page through GitHub Pages.</div>
+          <div>Decide what data is safe to show publicly.</div>
+          <div>Optionally automate a sanitized daily summary.</div>
+        </div>
+      </article>
+    </section>
+
+    <footer>
+      Generated for Hermes. Avoid publishing raw medical, Garmin, nutrition, or location data on public GitHub Pages.
+    </footer>
+  </main>
+
+  <script>
+    async function loadData() {
+      try {
+        const res = await fetch('./data.json', { cache: 'no-store' });
+        if (!res.ok) return;
+        const data = await res.json();
+        for (const [key, value] of Object.entries(data)) {
+          const el = document.getElementById(key);
+          if (el && typeof value === 'string') el.textContent = value;
+        }
+        if (Array.isArray(data.focus)) {
+          document.getElementById('focus').innerHTML = data.focus.map(x => `<div>${x}</div>`).join('');
+        }
+      } catch (e) {
+        console.warn('No data.json loaded yet', e);
+      }
+    }
+    loadData();
+  </script>
+</body>
+</html>
