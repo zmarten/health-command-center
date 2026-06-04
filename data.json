@@ -1,18 +1,18 @@
 {
-  "updated": "Demo data loaded",
+  "updated": "2026-06-03 18:48 MDT from Garmin + nutrition log",
   "recommendation": "Easy / Recovery",
-  "reason": "This page is ready for GitHub Pages. Keep sensitive health details private unless you intentionally publish them.",
-  "action": "Hydrate, get protein, and keep training intensity matched to recovery.",
-  "recovery": "TBD",
-  "activity": "TBD",
-  "nutrition": "TBD",
-  "sleep": "TBD",
-  "hrv": "TBD",
-  "bodyBattery": "TBD",
-  "stress": "TBD",
+  "reason": "Yesterday hit the step goal and included a 77-minute hike, but recovery signals were strained: HRV was at the low end of your balanced range, sleep score was fair, stress averaged 37, and Body Battery ended low.",
+  "action": "Keep today lighter unless you feel unusually good: walk, mobility, hydration/electrolytes, and a high-protein dinner.",
+  "recovery": "Low-moderate: HRV 36 ms, balanced; Body Battery 42 at wake, 14 most recent",
+  "activity": "10,011 steps, 9.25 km, 737 active kcal; main activity: 5.48 km hike, 77 min, 636 kcal, avg HR 120",
+  "nutrition": "Logged breakfast: ~820 kcal, ~82g protein; rest of day not logged yet",
+  "sleep": "7h 17m sleep, score 60 / Fair; deep 22%, REM 21%, avg sleep stress 39",
+  "hrv": "36 ms overnight average; Garmin status BALANCED; baseline balanced range 36-53 ms; weekly avg 45 ms",
+  "bodyBattery": "42 at wake, high 43, low/most recent 14; charged +19, drained -29",
+  "stress": "Average 37, max 91; Garmin qualifier STRESSFUL",
   "focus": [
-    "Publish this page through GitHub Pages.",
-    "Decide what data is safe to show publicly.",
-    "Optionally automate a sanitized daily summary."
+    "Use this month to test a public live health dashboard with real values.",
+    "Watch whether granular metrics are useful enough to justify a more private setup later.",
+    "Rollback to a sanitized public view is scheduled for July 3, 2026."
   ]
 }
