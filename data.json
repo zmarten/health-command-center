@@ -1,15 +1,15 @@
 {
-  "updated": "2026-06-13 20:02 MDT from Garmin export + nutrition log (Garmin 2026-06-13 through 2026-06-13 17:07 local; current-day data still partial)",
-  "recommendation": "Recovery-biased evening; no hard training",
-  "reason": "Garmin 2026-06-13 data through 2026-06-13 17:07 shows moderate readiness (57/Moderate), fair sleep (64/Fair), HRV 35 ms with Garmin status Balanced, Body Battery down to 29 after waking around 42, and stress averaging 27. Steps are 7,414 with 278.0 active kcal, but weekly intensity is already 264/150 minutes, so the safest call is to protect recovery tonight.",
-  "action": "Skip HIIT/threshold work tonight. If desired, do only an easy walk or mobility, then prioritize dinner protein, hydration, and an on-time wind-down for better sleep stress.",
-  "sleep": "2026-06-13 sleep: 8h 39m \u2022 score 64 / Fair \u2022 deep 7% / Fair \u2022 REM 20% / Fair \u2022 light 73% / Fair \u2022 awake 0h 13m \u2022 sleep need 8h 00m \u2022 sleep SpO\u2082 avg 97.0%, low 91 \u2022 sleep respiration avg 15.0/min",
-  "hrv": "2026-06-13 overnight HRV: 35 ms \u2022 Garmin status Balanced \u2022 personal balanced range 37\u201354 ms \u2022 weekly avg 40 ms \u2022 5-min high 81 ms",
-  "bodyBattery": "2026-06-13 Body Battery: latest/current 29, wake 42, high 45, low 20 \u2022 +28 charged / -19 drained \u2022 Garmin feedback DAY_RECOVERING_AND_INACTIVE",
-  "stress": "2026-06-13 stress: avg 27 \u2022 max 87 \u2022 rest 44.7% / stress 29.2% / activity stress 16.4% / uncategorized 9.7%; low/medium/high split 23.3% / 5.4% / 0.6%",
-  "training": "2026-06-13 readiness 57 / Moderate (AFTER_WAKEUP_RESET) \u2022 acute load 264 \u2022 ACWR 0.9 / Optimal \u2022 VO\u2082 max 43.3 displayed 43.0 \u2022 training status Maintaining since 2026-06-13 \u2022 weekly intensity 264/150 min (94 moderate, 85 vigorous) \u2022 recent work: 2026-06-11 hiking 3.25 km/46m/350.0 kcal; 2026-06-11 running 3.81 km/26m/428.0 kcal; 2026-06-10 walking 2.66 km/29m/254.0 kcal; 2026-06-09 hiit 0.00 km/38m/619.0 kcal; 2026-06-06 running 4.83 km/32m/570.0 kcal",
-  "vitals": "2026-06-13 RHR 63 vs 7-day avg 62 \u2022 min/max HR 52/110 \u2022 SpO\u2082 daily avg 96.0%, low 91, latest 95; sleep low 91 \u2022 sleep respiration avg 15.0/min, range 8.0\u201322.0/min",
-  "weeklySummary": "Seven-day Garmin export shows 51,306 synced steps for 2026-06-07\u20132026-06-13. Current partial day 2026-06-13: 7,414 steps, 6.17 km, 278.0 active kcal, 2189.0 total kcal, 1.0 floors, stress avg 27, RHR 63. Latest complete prior day 2026-06-12: 8,098 steps, 6.99 km, 3640.0 total kcal.",
+  "updated": "2026-06-14 05:02 MDT from Garmin export + nutrition log (Garmin current-day 2026-06-14 through 02:49 local is partial; using latest complete day 2026-06-13 for sleep/HRV/training decision)",
+  "recommendation": "Recovery-first morning; easy movement only",
+  "reason": "Garmin has only partial 2026-06-14 data so far (35 steps, Body Battery 51, stress avg 22 through 02:49 local) and no current sleep/HRV yet. Latest complete 2026-06-13 shows moderate readiness (57/Moderate), fair sleep (64/Fair), HRV 35 ms/Balanced, Body Battery ended low (26) after waking around 42, and stress averaged 29. Weekly intensity is already 264/150 minutes, so there is no need to force hard training this morning.",
+  "action": "Start with hydration, protein, and a low-stress walk or mobility. Delay intervals/HIIT until later only if energy rises and Garmin sync shows stronger readiness.",
+  "sleep": "2026-06-13 sleep: 8h 39m • score 64 / Fair • deep 7% / Fair • REM 20% / Fair • light 73% / Fair • awake 0h 13m • sleep need 8h 00m • sleep SpO₂ avg 97.0%, low 91 • sleep respiration avg 15.0/min",
+  "hrv": "2026-06-13 overnight HRV: 35 ms • Garmin status Balanced • personal balanced range 37–54 ms • weekly avg 40 ms • 5-min high 81 ms",
+  "bodyBattery": "2026-06-13 Body Battery: latest/end 26, wake 42, high 45, low 17 • +37 charged / -31 drained • Garmin feedback SLEEP_TIME_PASSED_RECOVERING_AND_INACTIVE",
+  "stress": "2026-06-13 stress: avg 29 • max 87 • rest 37.4% / stress 35.8% / activity stress 17.3% / uncategorized 9.4%; low/medium/high split 28.5% / 6.7% / 0.7%",
+  "training": "2026-06-13 readiness 57 / Moderate (AFTER_WAKEUP_RESET) • acute load 264 • ACWR 0.9 / Optimal • VO₂ max 43.3 displayed 43.0 • training status Maintaining since 2026-06-13 • weekly intensity 264/150 min (94 moderate, 85 vigorous) • recent work: 2026-06-11 hiking 3.25 km/46m/350.0 kcal; 2026-06-11 running 3.81 km/26m/428.0 kcal; 2026-06-10 walking 2.66 km/29m/254.0 kcal; 2026-06-09 hiit 0.00 km/38m/619.0 kcal; 2026-06-06 running 4.83 km/32m/570.0 kcal",
+  "vitals": "2026-06-13 RHR 63 vs 7-day avg 62 • min/max HR 52/110 • SpO₂ daily avg 96.0%, low 88, latest 95; sleep low 91 • waking respiration avg 14.0/min, range 8.0–22.0/min",
+  "weeklySummary": "Seven-day Garmin export shows 52,050 synced steps for 2026-06-08–2026-06-14, but 2026-06-14 is only partial through 02:49 local (35 steps, 0.03 km, 0.0 active kcal). Latest complete day 2026-06-13: 10,990 steps, 9.15 km, 417.0 active kcal, 3097.0 total kcal, stress avg 29, RHR 63. Complete six-day total before today: 52,015 steps.",
   "footerNote": "Generated by Hermes from Garmin + nutrition logs. Public granular view scheduled to roll back July 3, 2026.",
   "metricCards": [
     {
@@ -21,11 +21,11 @@
       "color": "yellow",
       "status": "Moderate",
       "statusClass": "warn",
-      "summary": "Readiness remains moderate; enough for easy movement, not a strong signal for hard evening intensity.",
+      "summary": "Readiness is moderate on the latest complete Garmin day; choose easy movement until newer sleep/HRV data lands.",
       "details": [
         {
           "label": "Source",
-          "value": "2026-06-13 05:39"
+          "value": "2026-06-13T05:39"
         },
         {
           "label": "Sleep factor",
@@ -47,11 +47,11 @@
       "color": "green",
       "status": "Balanced",
       "statusClass": "good",
-      "summary": "HRV is Garmin-balanced but slightly below the balanced range floor, so pair it with sleep and Body Battery before adding intensity.",
+      "summary": "HRV remains Garmin-balanced, though below the balanced range floor; keep intensity conservative.",
       "details": [
         {
           "label": "Balanced range",
-          "value": "37\u201354 ms"
+          "value": "37–54 ms"
         },
         {
           "label": "Weekly avg",
@@ -76,7 +76,7 @@
       "color": "yellow",
       "status": "Fair",
       "statusClass": "warn",
-      "summary": "Duration was solid, but sleep stress plus lower deep/REM percentages held the score in fair territory.",
+      "summary": "Duration was excellent, but stress and stage mix held the score in fair territory.",
       "details": [
         {
           "label": "Duration / need",
@@ -87,7 +87,7 @@
           "value": "7% / 20% / 73%"
         },
         {
-          "label": "SpO\u2082 / resp",
+          "label": "SpO₂ / resp",
           "value": "97.0% / 15.0/min"
         }
       ],
@@ -96,39 +96,39 @@
     {
       "label": "Energy budget",
       "title": "Body Battery",
-      "value": "29",
-      "valueRaw": 29,
+      "value": "26",
+      "valueRaw": 26,
       "type": "progress",
       "color": "red",
-      "status": "Moderate",
+      "status": "Low end of day",
       "statusClass": "bad",
-      "summary": "Body Battery charged overnight but has drained through the day; preserve what is left for recovery.",
+      "summary": "Body Battery recharged overnight but finished the complete day low; today starts from a partial early sync.",
       "details": [
         {
-          "label": "Wake / latest",
-          "value": "42 / 29"
+          "label": "Wake / end",
+          "value": "42 / 26"
         },
         {
           "label": "High / low",
-          "value": "45 / 20"
+          "value": "45 / 17"
         },
         {
           "label": "Charged / drained",
-          "value": "+28 / -19"
+          "value": "+37 / -31"
         }
       ],
-      "percent": 29
+      "percent": 26
     },
     {
       "label": "Physiological load",
       "title": "Stress avg",
-      "value": "27",
-      "valueRaw": 27,
+      "value": "29",
+      "valueRaw": 29,
       "type": "progress",
       "color": "green",
       "status": "Balanced",
       "statusClass": "good",
-      "summary": "Average stress is balanced, though nearly a third of measurable time registered as stress and there was a high spike.",
+      "summary": "Average stress stayed balanced, with most measurable stress in low intensity and a short high-stress slice.",
       "details": [
         {
           "label": "Max",
@@ -136,25 +136,25 @@
         },
         {
           "label": "Rest / stress",
-          "value": "44.7% / 29.2%"
+          "value": "37.4% / 35.8%"
         },
         {
           "label": "Low / med / high",
-          "value": "23.3% / 5.4% / 0.6%"
+          "value": "28.5% / 6.7% / 0.7%"
         }
       ],
-      "percent": 27
+      "percent": 29
     },
     {
       "label": "Movement output",
       "title": "Steps",
-      "value": "7,414",
-      "valueRaw": 7414,
+      "value": "10,990",
+      "valueRaw": 10990,
       "type": "progress",
       "color": "blue",
-      "status": "74% goal",
-      "statusClass": "info",
-      "summary": "Daily movement is moderate and below goal at the latest 17:07 Garmin sync.",
+      "status": "110% goal",
+      "statusClass": "good",
+      "summary": "Latest complete day cleared the daily step goal; current morning data is still too partial to judge.",
       "details": [
         {
           "label": "Goal",
@@ -162,14 +162,14 @@
         },
         {
           "label": "Distance",
-          "value": "6.17 km"
+          "value": "9.15 km"
         },
         {
           "label": "Active kcal",
-          "value": "278.0"
+          "value": "417.0"
         }
       ],
-      "percent": 74
+      "percent": 100
     },
     {
       "label": "Weekly activity",
@@ -180,7 +180,7 @@
       "color": "green",
       "status": "176% goal",
       "statusClass": "good",
-      "summary": "Weekly intensity minutes are already well above goal, reducing the need for additional intensity tonight.",
+      "summary": "Weekly intensity minutes are already well above goal, reducing pressure to add intensity today.",
       "details": [
         {
           "label": "Moderate / vigorous",
@@ -199,21 +199,21 @@
     },
     {
       "label": "Training context",
-      "title": "Load / VO\u2082 max",
+      "title": "Load / VO₂ max",
       "value": "264 load",
       "valueRaw": 264,
       "type": "progress",
       "color": "purple",
       "status": "ACWR 0.9 / Optimal",
       "statusClass": "good",
-      "summary": "Acute load and ACWR are controlled, with Garmin training status maintaining.",
+      "summary": "Acute load and ACWR remain controlled, with Garmin training status maintaining.",
       "details": [
         {
           "label": "ACWR",
           "value": "0.9 / Optimal"
         },
         {
-          "label": "VO\u2082 max",
+          "label": "VO₂ max",
           "value": "43.3"
         },
         {
@@ -258,19 +258,19 @@
       "color": "cyan",
       "status": "+1 vs avg",
       "statusClass": "good",
-      "summary": "Resting HR is close to the 7-day average; SpO\u2082 and respiration remain stable in sleep/wellness data.",
+      "summary": "Resting HR is close to the 7-day average; SpO₂ and respiration are stable in wellness/sleep data.",
       "details": [
         {
           "label": "7-day avg RHR",
           "value": "62"
         },
         {
-          "label": "SpO\u2082 avg/low/latest",
-          "value": "96.0% / 91 / 95"
+          "label": "SpO₂ avg/low/latest",
+          "value": "96.0% / 88 / 95"
         },
         {
           "label": "Resp avg/range",
-          "value": "15.0 / 8.0\u201322.0/min"
+          "value": "14.0 / 8.0–22.0/min"
         }
       ],
       "min": 50,
@@ -280,10 +280,6 @@
     }
   ],
   "weeklySteps": [
-    {
-      "date": "Jun 7",
-      "steps": 2867
-    },
     {
       "date": "Jun 8",
       "steps": 6556
@@ -306,23 +302,27 @@
     },
     {
       "date": "Jun 13",
-      "steps": 7414
+      "steps": 10990
+    },
+    {
+      "date": "Jun 14",
+      "steps": 35
     }
   ],
   "focus": [
-    "This 8 PM run uses 2026-06-13 Garmin data through 2026-06-13 17:07 local; activity/energy fields are current-day partial because Garmin has not synced the full day.",
-    "Primary recommendation: Recovery-biased evening; no hard training. Readiness is 57/Moderate, sleep is 64/Fair, Body Battery is 29, and weekly intensity is already 264/150 minutes.",
-    "Positive signals: HRV is Balanced at 35 ms, stress average is 27, and ACWR is 0.9/Optimal.",
-    "Constraint: Body Battery has drained to 29, sleep stress was Poor, and deep sleep was only 7%, so avoid hard intervals tonight.",
-    "Training context: acute load 264, VO\u2082 max 43.3, training status Maintaining; recent activities: 2026-06-11 hiking 3.25 km/46m/350.0 kcal; 2026-06-11 running 3.81 km/26m/428.0 kcal; 2026-06-10 walking 2.66 km/29m/254.0 kcal; 2026-06-09 hiit 0.00 km/38m/619.0 kcal; 2026-06-06 running 4.83 km/32m/570.0 kcal.",
+    "This 5 AM run found 2026-06-14 Garmin data partial through 02:49 local, with no current sleep/HRV yet; the recommendation uses latest complete 2026-06-13 recovery data.",
+    "Primary recommendation: Recovery-first morning; easy movement only. Readiness is 57/Moderate, sleep is 64/Fair, Body Battery ended 26, and weekly intensity is already 264/150 minutes.",
+    "Positive signals: HRV is Balanced at 35 ms, complete-day stress average is 29, ACWR is 0.9/Optimal, and Saturday steps hit 10,990.",
+    "Constraint: current-day Garmin export is too early/partial for a training upgrade, and latest complete sleep stress was poor with low deep sleep percentage.",
+    "Training context: acute load 264, VO₂ max 43.3, training status Maintaining; recent activities: 2026-06-11 hiking 3.25 km/46m/350.0 kcal; 2026-06-11 running 3.81 km/26m/428.0 kcal; 2026-06-10 walking 2.66 km/29m/254.0 kcal; 2026-06-09 hiit 0.00 km/38m/619.0 kcal; 2026-06-06 running 4.83 km/32m/570.0 kcal.",
     "Nutrition log latest entry is still 2026-06-03: ~820 kcal, ~82g protein, water Not logged.",
     "Rollback to a sanitized public view is scheduled for July 3, 2026."
   ],
   "displayNotes": [
-    "Use cards for scanability on iPhone: one primary number, status pill, and 2\u20133 details.",
+    "Use cards for scanability on iPhone: one primary number, status pill, and 2–3 details.",
     "Use baseline/range visualization for HRV and RHR because personal baseline matters more than population comparison.",
     "Use progress bars for readiness, sleep score, Body Battery, stress, steps, intensity minutes, training load, and nutrition.",
-    "This 8 PM run marks 2026-06-13 movement/calorie/body-battery fields as partial through the latest Garmin sync; use complete prior-day context in the weekly summary.",
-    "Source fields include training readiness, HRV baseline, sleep score/duration/stages/need, Body Battery wake/current/charge/drain, stress average/max/rest split, steps/distance/active calories, weekly intensity minutes, acute load/ACWR, VO\u2082 max, nutrition calories/protein/water, resting HR vs 7-day average, SpO\u2082, and respiration."
+    "This 5 AM run marks 2026-06-14 movement/calorie/body-battery fields as partial and uses the latest complete day for the main recovery decision.",
+    "Source fields include training readiness, HRV baseline, sleep score/duration/stages/need, Body Battery wake/current/charge/drain, stress average/max/rest split, steps/distance/active calories, weekly intensity minutes, acute load/ACWR, VO₂ max, nutrition calories/protein/water, resting HR vs 7-day average, SpO₂, and respiration."
   ]
 }
